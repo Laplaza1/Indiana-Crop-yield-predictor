@@ -1,0 +1,35 @@
+[
+    {
+        "Crop": "Corn,",
+        "Type of crop": "all",
+        "Method": "Planted",
+        "Area": "1,000",
+        "Unit of Measure": "acres",
+        "PreviousYearRecord_State": "5,450",
+        "CurrentYearRecord_State": "5,100",
+        "PreviousYearRecord_Country": "94,641",
+        "CurrentYearRecord_Country": "91,475"
+    },
+    {
+        "Crop": "Corn,",
+        "Type of crop": "grain",
+        "Method": "Harvested",
+        "Area": "1,000",
+        "Unit of Measure": "acres",
+        "PreviousYearRecord_State": "5,310",
+        "CurrentYearRecord_State": "4,960",
+        "PreviousYearRecord_Country": "86,513",
+        "CurrentYearRecord_Country": "83,438"
+    },
+    {
+        "Crop": "Hay,",
+        "Type of crop": "alfalfa",
+        "Method": "Harvested",
+        "Area": "1,000",
+        "Unit of Measure": "acres",
+        "PreviousYearRecord_State": "270",
+        "CurrentYearRecord_State": "260",
+        "PreviousYearRecord_Country": "15,634",
+        "CurrentYearRecord_Country": "15,627"
+    }
+]
