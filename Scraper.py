@@ -42,17 +42,17 @@ def download_pdf():
             options = webdriver.ChromeOptions()
             options.add_argument('--enable-managed-downloads=True')
             options.add_argument("user-agent=fake-useragent")
-            prefs = {"download.default_directory" : r'C:\Users\L1K3A\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports'}
+            prefs = {"download.default_directory" : r'C:\Users\xxxx\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports'}
             options.enable_downloads = True
-            params = {"behavior": "allow", 'downloadPath':r'C:\Users\L1K3A\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports' }
+            params = {"behavior": "allow", 'downloadPath':r'C:\Users\xxxx\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports' }
             options.set_capability("se:downloadsEnabled", True)
             options.add_argument('--enable-managed-downloads=True')
-            options.add_experimental_option("prefs", { "download.default_directory": r'C:\Users\L1K3A\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports', "download.prompt_for_download": False, "download.directory_upgrade": True, "safebrowsing.enabled": True})
+            options.add_experimental_option("prefs", { "download.default_directory": r'C:\Users\xxxx\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports', "download.prompt_for_download": False, "download.directory_upgrade": True, "safebrowsing.enabled": True})
             options.add_experimental_option("detach", True)
             options.add_argument('--ignore-certificate-errors-spki-list')
             options.add_argument('log-level=3')
             options.to_capabilities()
-            options.add_experimental_option("prefs", {"download.default_directory": r'C:\Users\L1K3A\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports',
+            options.add_experimental_option("prefs", {"download.default_directory": r'C:\Users\xxxx\OneDrive\Desktop\Indiana Crop yield predictor\AG_Reports',
                 "download.prompt_for_download": False,
                 "download.directory_upgrade": True,
                 "safebrowsing.enabled": True,
